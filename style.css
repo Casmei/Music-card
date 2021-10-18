@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+} 
+
+
+.card {
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.conteudo h1{
+    margin: 0 auto;
+    margin-top: 40px;
+    color:hsl(223, 47%, 23%)  ;
+}
+
+.conteudo p{
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 370px;
+    color: hsl(224, 23%, 55%);
+}
+
+.conteudo .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    padding: 30px;
+    background-color:hsl(225, 100%, 98%) ;
+    border-radius: 10px;
+}
+
+.conteudo .price > a {
+    color: hsl(224, 23%, 55%);
+}
+
+.conteudo .price > a:hover {
+    color: hsl(245, 75%, 52%);
+}
+
+.grupo {
+    display: flex;
+    align-items: center;
+}
+
+.grupo .col > p{
+    text-align:left;
+    margin: 0;
+}
+
+.grupo > img{
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+}
+
+.bottom > input {
+    font-size: 14px;
+    border: none;
+    color: white;
+    padding: 15px 108px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color:hsl(245, 75%, 52%) ;
+    
+}
+
+.bottom  > input:hover{
+    background-color: hsl(245, 85%, 55%);
+    box-shadow: rgba(85, 55, 195, 0.30) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
+}
+
+.bottom > a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+/* INICIO FOOTER */
+
+.footer {
+    background-color: #1d1e20;
+    padding:25px 0;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.footer p{
+    
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.5;
+    margin-top:2em ;
+    color: white;
+}
+
+.footer  strong {
+    color: rgb(118, 243, 145);
+    opacity: 1;
+}
+
+k {
+    color: rgb(68, 163, 88);
+    font-weight: bold;
+    
+}
+
+/* FIM DO FOOTER */
